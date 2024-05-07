@@ -43,9 +43,7 @@ This API provides endpoints to recommend products to users based on their browsi
 
 ### Error Handling
 
-- **400 Bad Request:** Returned if:
-  - The `count` parameter exceeds the maximum value of 20.
-  - The specified `user_id` does not exist in the system.
+- **400 Bad Request:** Returned if The `count` parameter exceeds the maximum value of 20.
 - **404 Not Found:** Returned if the specified `user_id` does not exist.
 
 ## Dependencies

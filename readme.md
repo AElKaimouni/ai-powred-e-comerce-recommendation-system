@@ -25,13 +25,6 @@ The dataset used for this project is sourced from [Kaggle](https://www.kaggle.co
 3. Run the Flask server by executing `server.py`: `python server.py`.
 4. send HTTP GET requests to `http://localhost:5000/user/<user_id>?count=<count>` to get recommendations for a specific user.
 
-## Project Structure
-
-- **data:** Contains CSV files (`customers.csv`, `sales.csv`, `products.csv`) representing customer data, sales data, and product data.
-- **recommendation_model.py:** Core functionality for the recommendation system.
-- **server.py:** Flask server implementation to expose recommendation endpoints.
-- **README.md:** Documentation file explaining the project and how to run it.
-
 ## API Documentation
 
 ### Description
